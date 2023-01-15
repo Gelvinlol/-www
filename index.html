@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="index.css" />
+<head>
+
+</head>
+<body>
+	<script>
+	function Βιογραφία() {
+	  document.getElementById("Βιογραφία").style.display = "block";
+	  
+	  document.getElementById("Φωτογραφίες").style.display = "none";
+	  document.getElementById("Έργα").style.display = "none";
+	  document.getElementById("Σύνδεσμοι").style.display = "none";
+	  document.getElementById("Διαχείριση").style.display = "none";
+	  document.getElementById("arxbio").style.display = "none";
+	  document.getElementById("1944").style.display = "block";
+	  document.getElementById("1963").style.display = "block";
+	  document.getElementById("1966").style.display = "block";
+	  document.getElementById("1978").style.display = "block";
+	  document.getElementById("2010").style.display = "block";
+	  document.getElementById("arxphoto").style.display = "none";
+	  document.getElementById("photo1").style.display = "none";
+	  document.getElementById("photo2").style.display = "none";
+	  document.getElementById("arxerga").style.display = "none";
+	  document.getElementById("ergo1").style.display = "none";
+	  document.getElementById("ergo2").style.display = "none";
+	  document.getElementById("ergo3").style.display = "none";
+	  document.getElementById("ergo4").style.display = "none";
+	}
+	function Φωτογραφίες() {
+	  document.getElementById("Φωτογραφίες").style.display = "block";
+
+	  document.getElementById("Βιογραφία").style.display = "none";
+	  document.getElementById("Έργα").style.display = "none";
+	  document.getElementById("Σύνδεσμοι").style.display = "none";
+	  document.getElementById("Διαχείριση").style.display = "none";
+	  document.getElementById("arxbio").style.display = "none";
+	  document.getElementById("1944").style.display = "none";
+	  document.getElementById("1963").style.display = "none";
+	  document.getElementById("1966").style.display = "none";
+	  document.getElementById("1978").style.display = "none";
+	  document.getElementById("2010").style.display = "none";
+	  document.getElementById("arxphoto").style.display = "none";
+	  document.getElementById("photo1").style.display = "block";
+	  document.getElementById("photo2").style.display = "block";
+	  document.getElementById("arxerga").style.display = "none";
+	  document.getElementById("ergo1").style.display = "none";
+	  document.getElementById("ergo2").style.display = "none";
+	  document.getElementById("ergo3").style.display = "none";
+	  document.getElementById("ergo4").style.display = "none";
+	}	
+	function Έργα() {
+	  document.getElementById("Έργα").style.display = "block";
+
+	  document.getElementById("Βιογραφία").style.display = "none";
+	  document.getElementById("Φωτογραφίες").style.display = "none";
+	  document.getElementById("Σύνδεσμοι").style.display = "none";
+	  document.getElementById("Διαχείριση").style.display = "none";
+	  document.getElementById("arxbio").style.display = "none";
+	  document.getElementById("1944").style.display = "none";
+	  document.getElementById("1963").style.display = "none";
+	  document.getElementById("1966").style.display = "none";
+	  document.getElementById("1978").style.display = "none";
+	  document.getElementById("2010").style.display = "none";
+	  document.getElementById("arxphoto").style.display = "none";
+	  document.getElementById("photo1").style.display = "none";
+	  document.getElementById("photo2").style.display = "none";
+	  document.getElementById("arxerga").style.display = "none";
+	  document.getElementById("ergo1").style.display = "block";
+	  document.getElementById("ergo2").style.display = "block";
+	  document.getElementById("ergo3").style.display = "block";
+	  document.getElementById("ergo4").style.display = "block";
+	  document.getElementsByClassName("ergacontainer")[0].style.display = "flex";
+	  document.getElementsByClassName("ergo1container")[0].style.display = "none";
+	  document.getElementsByClassName("ergo2container")[0].style.display = "none";
+	  document.getElementsByClassName("ergo3container")[0].style.display = "none";
+	  document.getElementsByClassName("ergo4container")[0].style.display = "none";
+	}	
+	function Σύνδεσμοι() {
+	  document.getElementById("Σύνδεσμοι").style.display = "block";
+
+	  document.getElementById("Βιογραφία").style.display = "none";
+	  document.getElementById("Φωτογραφίες").style.display = "none";
+	  document.getElementById("Έργα").style.display = "none";
+	  document.getElementById("Διαχείριση").style.display = "none";
+	}	
+	function Διαχείριση() {
+	  document.getElementById("Διαχείριση").style.display = "block";
+
+	  document.getElementById("Βιογραφία").style.display = "none";
+	  document.getElementById("Φωτογραφίες").style.display = "none";
+	  document.getElementById("Έργα").style.display = "none";
+	  document.getElementById("Σύνδεσμοι").style.display = "none";
+	}
+	
+	function ergo1() {
+	  document.getElementsByClassName("ergacontainer")[0].style.display = "none";
+	  document.getElementsByClassName("ergo2container")[0].style.display = "none";
+	  document.getElementsByClassName("ergo3container")[0].style.display = "none";
+	  document.getElementsByClassName("ergo4container")[0].style.display = "none";
+	  document.getElementsByClassName("ergo1container")[0].style.display = "block";
+	  document.getElementById("arxerga").style.display = "block";
+
+	}
+	function ergo2() {
+	  document.getElementsByClassName("ergacontainer")[0].style.display = "none";
+	  document.getElementsByClassName("ergo1container")[0].style.display = "none";
+	  document.getElementsByClassName("ergo3container")[0].style.display = "none";
+	  document.getElementsByClassName("ergo4container")[0].style.display = "none";
+	  document.getElementsByClassName("ergo2container")[0].style.display = "block";
+	  document.getElementById("arxerga").style.display = "block";
+
+	}
+	function ergo3() {
+	  document.getElementsByClassName("ergacontainer")[0].style.display = "none";
+	  document.getElementsByClassName("ergo1container")[0].style.display = "none";
+	  document.getElementsByClassName("ergo2container")[0].style.display = "none";
+	  document.getElementsByClassName("ergo4container")[0].style.display = "none";
+	  document.getElementsByClassName("ergo3container")[0].style.display = "block";
+	  document.getElementById("arxerga").style.display = "block";
+
+	}
+	function ergo4() {
+	  document.getElementsByClassName("ergacontainer")[0].style.display = "none";
+	  document.getElementsByClassName("ergo1container")[0].style.display = "none";
+	  document.getElementsByClassName("ergo2container")[0].style.display = "none";
+	  document.getElementsByClassName("ergo3container")[0].style.display = "none";
+	  document.getElementsByClassName("ergo4container")[0].style.display = "block";
+	  document.getElementById("arxerga").style.display = "block";
+
+	}
+	function style1944() {
+	  document.getElementById("p1944").style.textDecoration  = "underline";
+	  
+	  document.getElementById("p1963").style.textDecoration  = "none";
+	  document.getElementById("p1966").style.textDecoration  = "none";
+	  document.getElementById("p1978").style.textDecoration  = "none";
+	  document.getElementById("p2010").style.textDecoration  = "none";
+
+	}
+	function style1963() {
+	  document.getElementById("p1963").style.textDecoration  = "underline";
+	  
+	  document.getElementById("p1944").style.textDecoration  = "none";
+	  document.getElementById("p1978").style.textDecoration  = "none";
+	  document.getElementById("p1966").style.textDecoration  = "none";
+	  document.getElementById("p2010").style.textDecoration  = "none";
+
+	}
+	function style1966() {
+	  document.getElementById("p1966").style.textDecoration  = "underline";
+	  
+	  document.getElementById("p1944").style.textDecoration  = "none";
+	  document.getElementById("p1963").style.textDecoration  = "none";
+	  document.getElementById("p1978").style.textDecoration  = "none";
+	  document.getElementById("p2010").style.textDecoration  = "none";
+
+	}
+	function style1978() {
+	  document.getElementById("p1978").style.textDecoration  = "underline";
+	  
+	  document.getElementById("p1944").style.textDecoration  = "none";
+	  document.getElementById("p1963").style.textDecoration  = "none";
+	  document.getElementById("p1966").style.textDecoration  = "none";
+	  document.getElementById("p2010").style.textDecoration  = "none";
+
+	}	
+	function style2010() {
+	  document.getElementById("p2010").style.textDecoration  = "underline";
+	  
+	  document.getElementById("p1944").style.textDecoration  = "none";
+	  document.getElementById("p1963").style.textDecoration  = "none";
+	  document.getElementById("p1966").style.textDecoration  = "none";
+	  document.getElementById("p1978").style.textDecoration  = "none";
+
+	}
+	
+
+	</script>
+	
+<div class="grid-container">
+<body onload="Βιογραφία();">
+	<div class="item1">
+		<ul>
+		  <li><a onclick="Βιογραφία()">Βιογραφία</a></li>
+		  <li><a onclick="Φωτογραφίες()">Φωτογραφίες</a></li>
+		  <li><a onclick="Έργα()">Έργα</a></li>
+		  <li><a onclick="Σύνδεσμοι()">Σύνδεσμοι</a></li>
+		  <li><a onclick="Διαχείριση()">Διαχείριση</a></li>
+		</ul>
+	</div>
+	<div class="item2">
+		<div class="sidenav">
+		  <a id="arxbio" onclick="Βιογραφία()">&larr;</a>
+		  <a id="1944" onclick="style1944()">1944</a>
+		  <a id="1963" onclick="style1963()">1963</a>
+		  <a id="1966" onclick="style1966()">1966</a>
+		  <a id="1978" onclick="style1978()">1978</a>
+		  <a id="2010" onclick="style2010()">2010</a>
+		  
+		  <a id="arxphoto" onclick="Φωτογραφίες()">&larr;</a>
+		  <a id="photo1" onclick="Βιογραφία()">Gallery1</a>
+		  <a id="photo2" onclick="Φωτογραφίες()">Gallery2</a>
+		  
+		  <a id="arxerga" onclick="Έργα()">&larr;</a>
+		  <a id="ergo1" onclick="ergo1()">Έργο 1</a>
+		  <a id="ergo2" onclick="ergo2()">Έργο 2</a>
+		  <a id="ergo3" onclick="ergo3()">Έργο 3</a>
+		  <a id="ergo4" onclick="ergo4()">Έργο 4</a>
+
+		</div>
+	</div>
+	<div class="item3">
+		<section id="Βιογραφία">
+			<center><h1>Βιογραφία του ΔΗΜΗΤΡΗ ΔΗΜΗΤΡΙΑΔΗ</h1></center>
+			<div class="bioarx">
+				<img src="https://i.imgur.com/1BKgTBK.jpg" /> <p id="p1944">Ο Δημήτρης Δημητριάδης (1944) είναι Έλληνας συγγραφέας, θεατρικός συγγραφέας και μεταφραστής. Γεννήθηκε στη Θεσσαλονίκη το 1944.</p> <p id="p1963">Το 1963, με υποτροφία του βελγικού κράτους, σπούδασε θέατρο και κινηματογράφο στις Βρυξέλλες, στο Εθνικό Ινστιτούτο Τεχνών Θεάματος (INSAS).</p><p id="p1966">Το 1966 έγραψε, αρχικά στα γαλλικά, το πρώτο θεατρικό του έργο, Η τιμή της ανταρσίας στην μαύρη αγορά, το οποίο ανέβηκε στο Παρίσι λίγο μετά τα γεγονότα του Μάη του ‘68, στο Théâtre de la Commune d’Aubervilliers, από τον κορυφαίο Γάλλο σκηνοθέτη Patrice Chéreau, με τον ίδιο τον Chéreau να ερμηνεύει τον βασιλιά του έργου.</p><p id="p1978"> Το 1978 δημοσιεύεται το πρώτο του πεζογράφημα Πεθαίνω σαν χώρα και προκαλεί σάλο, παραμένοντας μέχρι σήμερα ένα κείμενο-ορόσημο για τον ελληνικό νεωτερισμό. Έγραψε τότε γι’ αυτό στην εφημερίδα Le Monde ο συγγραφέας, μεταφραστής και ελληνιστής Μισέλ Βόλκοβιτς: «Η Ιστορία της Λογοτεχνίας σηματοδοτείται, κατά καιρούς, από κάποια μοναχικά έργα, που μια τελειότητα στην έκφραση της απελπισίας ή της φρίκης τα κάνει να λάμπουν σαν μαύρα διαμάντια.</p>Το Πεθαίνω σαν χώρα ανήκει σε αυτήν την εντυπωσιακή οικογένεια. Γίνεται να βυθιστούμε πιο βαθιά απ’ όσο αυτό το βιβλίο στα έγκατα του ανθρώπου;» Το έργο συγκαταλέγεται στα εκατό καλύτερα ελληνικά βιβλία. Από το 1971, ο Δημητριάδης ασχολείται επαγγελματικά και με τη μετάφραση. Μετέφρασε Ζαν Ζενέ, Ζαν Πολ Σαρτρ, Μορίς Μπλανσό, Ζωρζ Μπατάιγ, Κώστα Αξελό, Βίτολντ Γκομπρόβιτς, Μολιέρο, Μισέλ Μπιτόρ, Σαίξπηρ, Μαργκερίτ Ντυράς, Ζωρζ Κουρτελέν, Μωρίς Μαίτερλινκ, Ονορέ ντε Μπαλζάκ, Μπερνάρ-Μαρί Κολτές, Σάμιουελ Μπέκετ, Τένεσι Ουίλιαμς κ.ά. καθώς και αρχαίο δράμα: Αριστοφάνη (Λυσιστράτη), Αισχύλο (Ορέστεια, Προμηθέας Δεσμώτης), Σοφοκλή (Αντιγόνη, Οιδίπους επί Κολωνώ) και Ευριπίδη (Φοίνισσες, Ιππόλυτος, Ελένη, Ιφιγένεια εν Ταύροις).</br></br> Το 2003 οι τόμοι 1 και 7 του έργου Η Ανθρωπωδία: Μια ατελής χιλιετία βραβεύτηκαν με το Κρατικό Βραβείο Μυθιστορήματος.<p id="p2010">Το 2010, ο Δημητριάδης ήταν το τιμώμενο πρόσωπο στο περίφημο παρισινό θέατρο Odéon-Théâtre de l’Europe, το οποίο, υπό την καλλιτεχνική διεύθυνση του Olivier Py, τον αναγόρευσε Σύγχρονο Ευρωπαίο Συγγραφέα της Χρονιάς.</p>Στο πλαίσιο του αφιερώματος παρουσιάστηκαν το Πεθαίνω σαν χώρα, σε σκηνοθεσία του Μιχαήλ Μαρμαρινού, Η ζάλη των ζώων πριν τη σφαγή σε σκηνοθεσία Caterina Gozzi και δόθηκε η πρεμιέρα του (ανέκδοτου τότε ακόμη στα ελληνικά) έργου Ο κυκλισμός του τετραγώνου σε σκηνοθεσία Giorgio Barberio Corsetti (παγκόσμια πρεμιέρα). Τον Οκτώβριο 2011 του απονεμήθηκε το μετάλλιο Chevalier dans l'ordre des Arts et des Lettres. Η απονομή έγινε, μετά από απόφαση τού τότε υπουργού Πολιτισμού της Γαλλίας Frédéric Mitterand, στο Γαλλικό Ινστιτούτο Θεσσαλονίκης, από τον Γάλλο πρέσβη Christophe Farnaud. Παράλληλα, από τον Ιανουάριο έως το Μάιο του 2013 πραγματοποιήθηκε στη Στέγη Γραμμάτων και Τεχνών του Ιδρύματος Ωνάση μεγάλο αφιέρωμα, που περιελάμβανε μια σειρά εκδηλώσεων με αναλόγια έργων του, καθώς και αναμεταδόσεις από το κανάλι France Culture. Στο Festival της Avignon (επίσημο πρόγραμμα) παραστάθηκε το καλοκαίρι του 2014 Ο Κυκλισμός του τετραγώνου, σε σκηνοθεσία Δημήτρη Καρατζά. Στο ίδιο Festival, το 2015, στην Opéra Grand Avignon, ανέβηκε η Ομηριάδα, σε μουσική Martin Romberg με την ORCHESTRE RÉGIONAL AVIGNON-PROVENCE. Επίσης, από το 2021 ανήκει στο διοικητικό συμβούλιο της Εθνικής Λυρικής Σκηνής. Τα τελευταία χρόνια ο Δημητριάδης έχει επενδύσει σε σεμινάρια με νέους συγγραφείς, ηθοποιούς και σκηνοθέτες ακολουθώντας την εσωτερική ανάγκη του για έμπνευση, ενθουσιασμό και επικοινωνία με την νεότερη γενιά.
+			</div>
+		</section>
+		<section id="Φωτογραφίες">
+			<center><h1>Φωτογραφίες</h1></center>
+		   <div class="cards">
+			  <img class="item" src="https://i.imgur.com/n4Ve83D.jpg" alt="Example image">
+			  <img class="item" src="https://i.imgur.com/d5htP4A.jpg" alt="Example image">
+			  <img class="item" src="https://i.imgur.com/OEklbXg.jpg" alt="Example image">
+			  <img class="item" src="https://i.imgur.com/8CmHbLr.jpg" alt="Example image">
+			  <img class="item" src="https://i.imgur.com/1BKgTBK.jpg" alt="Example image">
+			  <img class="item" src="https://i.imgur.com/YYgc317.jpg" alt="Example image">    			  
+		   </div>
+		</section>
+		<section id="Έργα">
+			<center><h1>Έργα</h1></center>
+				<div class="ergacontainer">
+				  <div class="box">
+					<img src="https://www.ianos.gr/pub/media/catalog/product/cache/a232a56306d1016cde5a8d545bb9b2a4/C/a/CatalogueItem.0244078.jpeg">
+					<span>Πεθαίνω σαν χώρα</span>
+				  </div>
+				  <div class="box">
+					<img src="https://i.ytimg.com/vi/13XtH-XVIg0/maxresdefault.jpg">
+					<span>Ο ευαγγελισμός της Κασσάνδρας</span>
+				  </div>
+				  <div class="box">
+					<img src="https://www.politeianet.gr/components/com_virtuemart/shop_image/product/BDFAC5D45E09086E44B85255CF41A981.jpg">
+					<span>Χρύσιππος</span>
+				  </div>
+				  <div class="box">
+					<img src="https://www.politeianet.gr/components/com_virtuemart/shop_image/product/4588BEFC77144FDE2CCA29665BC12FA1.jpg">
+					<span>Η ανθρωπωδία</span>
+				  </div>
+				</div>
+				<div class="ergo1container">
+					<img src="https://www.ianos.gr/pub/media/catalog/product/cache/a232a56306d1016cde5a8d545bb9b2a4/C/a/CatalogueItem.0244078.jpeg" /> Την χρονιά εκείνη καμιά γυναίκα δεν έπιασε παιδί. Αυτό συνεχίστηκε και τα επόμενα χρόνια, μέχρι που συμπληρώθηκε γενιά χωρίς καμιά καινούργια γενιά να 'ρθει στον κόσμο. [...] Εκτός απ' ολιγάριθμες εξαιρέσεις βίαιων αντιδράσεων σ' αυτή την ξεθεμελιωτική συμφορά, που πολύ αργότερα ονομάστηκε Μεσαίωνας της Μήτρας (: πυρπολισμοί δημόσιων κτηρίων, καταστροφές μνημείων και εθνικών συμβόλων, δολοφονικές επιθέσεις εναντίον προσώπων που οι επιτιθέμενοι τα θεωρούσαν υπεύθυνα για το κακό που τους είχε βρει), όλοι οι άλλοι, μαθημένοι στην εγκράτεια, χαλιναγωγούσαν την απελπισία τους και περιόριζαν σε ιδιωτικούς χώρους τα ξεσπάσματα του πανικού τους που τους έκανε να ξεσχίζουν την νύχτα τα μαξιλάρια με τα δόντια τους. [...]
+				</div>
+				<div class="ergo2container">
+					<img src="https://www.evripidis.gr/datafiles/010100059280.jpg" /> Την χρονιά εκείνη καμιά γυναίκα δεν έπιασε παιδί. Αυτό συνεχίστηκε και τα επόμενα χρόνια, μέχρι που συμπληρώθηκε γενιά χωρίς καμιά καινούργια γενιά να 'ρθει στον κόσμο. [...] Εκτός απ' ολιγάριθμες εξαιρέσεις βίαιων αντιδράσεων σ' αυτή την ξεθεμελιωτική συμφορά, που πολύ αργότερα ονομάστηκε Μεσαίωνας της Μήτρας (: πυρπολισμοί δημόσιων κτηρίων, καταστροφές μνημείων και εθνικών συμβόλων, δολοφονικές επιθέσεις εναντίον προσώπων που οι επιτιθέμενοι τα θεωρούσαν υπεύθυνα για το κακό που τους είχε βρει), όλοι οι άλλοι, μαθημένοι στην εγκράτεια, χαλιναγωγούσαν την απελπισία τους και περιόριζαν σε ιδιωτικούς χώρους τα ξεσπάσματα του πανικού τους που τους έκανε να ξεσχίζουν την νύχτα τα μαξιλάρια με τα δόντια τους. [...]
+				</div>		
+				<div class="ergo3container">
+					<img src="https://www.politeianet.gr/components/com_virtuemart/shop_image/product/BDFAC5D45E09086E44B85255CF41A981.jpg" /> Με αφετηρία ένα χαμένο έργο τού Ευριπίδη, με τον ίδιο τίτλο, μέρος μιάς επίσης χαμένης τριλογίας, έργο απ' το οποίο, σύμφωνα με τα φιλολογικά ευρήματα, δεν έχουν απομείνει παρά μονάχα δύο γράμματα απ' τον πρώτο στίχο, και το οποίο αφηγείται την απαγωγή του νεαρού και πανέμορφου Χρύσιππου, γιου του Πέλοπος, απ' τον Λάιο, ο συγγραφέας Δημήτρης Δημητριάδης χτίζει το εν λόγω θεατρικό του έργο.</br>
+Γράφει ο ίδιος για την φιγούρα του Χρύσιππου: "Ο Χρύσιππος είναι ο εκπρόσωπος του προσώπου το οποίο, ως φορέας μιάς απαράμιλλης και καθηλωτικής ομορφιάς, κρύβει το αληθινό πρόσωπο τού υποκειμένου μήπως, με άλλα λόγια, η ομορφιά αυτή είναι παραπλανητική, υπό την έννοια ότι αποτελεί όχι το πρόσωπο αλλά το προσωπείο του άλλου προσώπου, του αληθινού, εκείνου το οποίο βρίσκεται από πίσω και μήπως αυτό το δεύτερο πρόσωπο, το κρυμμένο, το αφανές, που δυσκολευόμαστε να το αντιληφθούμε εκ πρώτης όψεως και που το αντιλαμβανόμαστε πάντα, ή τις περισσότερες φορές, εκ των υστέρων, όταν πλέον είναι πολύ αργά για εμάς τους ίδιους, δεν είναι τίποτ' άλλο παρά μία άμορφη, αδιαμόρφωτη ύλη, μία παραμορφωμένη σάρκα, ένα διεστραμμένο μόρφωμα, ένα, αμιγώς ανθρώπινο αλλά εντελώς ανυπόφορο, έκτρωμα, το οποίο εξευγενίζεται απ' το εμφανές, ορατό, επιφανειακό κάλλος, και με τον εξευγενισμό αυτόν προετοιμάζει το έδαφος για την εξαπάτηση, την καταστροφή, την φρίκη;</br></br>
+Όλοι οι υπόλοιποι που συναναστρέφονται, με τον έναν ή με τον άλλον τρόπο, τον Χρύσιππο, είναι όλοι εμείς που, χωρίς ν' αποτελούμε εντελώς αθώα και ανεύθυνα θύματα, συναποτελούμε αυτήν την κοινότητα, η οποία δεν είναι άλλη απ' το ανθρώπινο είδος, και η οποία βρίσκεται πάντα ενώπιον εκείνου που ο Εμμανουήλ Λεβινάς αποκάλεσε "το πρόσωπο τού Θεού" αλλά που, στην πραγματικότητα, δεν είναι παρά μόνον ο πλησίον μας, ένας άλλος άνθρωπος, ο συνάνθρωπος".
+				</div>		
+				<div class="ergo4container">
+					<img src="https://www.politeianet.gr/components/com_virtuemart/shop_image/product/4588BEFC77144FDE2CCA29665BC12FA1.jpg" /> Την χρονιά εκείνη καμιά γυναίκα δεν έπιασε παιδί. Αυτό συνεχίστηκε και τα επόμενα χρόνια, μέχρι που συμπληρώθηκε γενιά χωρίς καμιά καινούργια γενιά να 'ρθει στον κόσμο. [...] Εκτός απ' ολιγάριθμες εξαιρέσεις βίαιων αντιδράσεων σ' αυτή την ξεθεμελιωτική συμφορά, που πολύ αργότερα ονομάστηκε Μεσαίωνας της Μήτρας (: πυρπολισμοί δημόσιων κτηρίων, καταστροφές μνημείων και εθνικών συμβόλων, δολοφονικές επιθέσεις εναντίον προσώπων που οι επιτιθέμενοι τα θεωρούσαν υπεύθυνα για το κακό που τους είχε βρει), όλοι οι άλλοι, μαθημένοι στην εγκράτεια, χαλιναγωγούσαν την απελπισία τους και περιόριζαν σε ιδιωτικούς χώρους τα ξεσπάσματα του πανικού τους που τους έκανε να ξεσχίζουν την νύχτα τα μαξιλάρια με τα δόντια τους. [...]
+				</div>						
+		</section>
+		<section id="Σύνδεσμοι">
+			<h1>Σύνδεσμοι</h1>
+		</section>
+		<section id="Διαχείριση">
+			<h1>Διαχείριση</h1>
+
+
+		</section>
+	</div>  
+</div>
+
+</body>
+</html>
